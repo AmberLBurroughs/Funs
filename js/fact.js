@@ -1,4 +1,4 @@
-
+// https://coderbyte.com/editor/guest:First%20Factorial:JavaScript
 // -have the function take the num parameter being passed and return the factorial of it
   // (ie. if num = 4, return (4 * 3 * 2 * 1)).
 
@@ -24,7 +24,7 @@ var fact = function(){
   var num = getInput();
   var ttl = 1;
   if(num != 0){
-    for(var i = 1; i <= num; i++ ){
+    for(var i = 1; i <= num; i++){
       ttl = i * ttl;
     }
   }

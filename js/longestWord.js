@@ -1,5 +1,8 @@
+// https://coderbyte.com/editor/guest:Longest%20Word:JavaScript
+// Find the longest word in a string
+
 var userSen = prompt("write a sentence");
-// FIND THE LONGEST WORD
+
 var LongestWord = function(sen){
   // -split the string into ubstrings / an array
   var subStrings = sen.split(" ");
