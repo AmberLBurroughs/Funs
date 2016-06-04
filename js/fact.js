@@ -23,7 +23,7 @@ var getInput = function(){
 var fact = function(){
   var num = getInput();
   var ttl = 1;
-  if(num != 0){
+  if(num !== 0){
     for(var i = 1; i <= num; i++){
       ttl = i * ttl;
     }
